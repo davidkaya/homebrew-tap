@@ -4,30 +4,30 @@
 class Ttyms < Formula
   desc "A secure terminal client for Microsoft Teams"
   homepage "https://github.com/davidkaya/ttyms"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/davidkaya/ttyms/releases/download/v#{version}/ttyms-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "91f1044df31493d80e4010f0a62d56641606ce8f6675290d3ba43a54eb3e4e52"
+      sha256 "58121a4b90d675c653da4df4e881bc8792418f12209118401ea56907f22bf39e"
     end
 
     on_intel do
       url "https://github.com/davidkaya/ttyms/releases/download/v#{version}/ttyms-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "22b0d56d7525c88e72f860baf325f1b31eba36cc7dfc3f95b33bcca6b70e4de8"
+      sha256 "83cee38c561cc68ee35768a94d062a451114ea16b900fc78d4fb9b4fcce099f5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/davidkaya/ttyms/releases/download/v#{version}/ttyms-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3f4d6dfc286e4c375f70a27f38d1949663b9d09f6a0a0fceff53ac406ca9c798"
+      sha256 "c90b325595962ccd2a848e235ae82f86059100313399c0b2b086a50aed721c64"
     end
 
     on_intel do
       url "https://github.com/davidkaya/ttyms/releases/download/v#{version}/ttyms-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "143e50077fa7e087082a0c76181b679e585697e18316034cdbcbed645a1b6a83"
+      sha256 "a7e0ff9f79f1950c1cf44d3cdfe1d6699577d856a467d11a3266113b53c72356"
     end
   end
 
